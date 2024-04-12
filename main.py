@@ -28,6 +28,8 @@ while(count):
     view()
   elif inp == "exit":
     count = False
+    print("This is your existing bank of passwords: ")
+    view()
   else:
     print("Invalid input")
 
